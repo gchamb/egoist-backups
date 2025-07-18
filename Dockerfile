@@ -8,5 +8,4 @@ WORKDIR /app
 
 RUN npm ci && npm run build
 
-ENTRYPOINT ["/bin/bash"]
-CMD ["npm", "start"]
+CMD ["npm", "run", "start"]
