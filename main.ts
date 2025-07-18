@@ -26,7 +26,7 @@ async function backup() {
   const ACCESS_KEY = process.env.MY_AWS_ACCESS_KEY_ID;
   const SECRET_ACCESS_KEY = process.env.MY_AWS_SECRET_ACCESS_KEY;
 
-  try {
+  try { 
     if (
       MYSQL_HOST === undefined ||
       MYSQL_USER === undefined ||
